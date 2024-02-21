@@ -1,13 +1,10 @@
 import FormCadProd from "../formularios/formCadProd";
-import Pagina from "../templates/pagina";
 
 export default function TelaCadProd(props) {
     return (
-        <div>
-            <Pagina>
-                <h2>Cadastro de Produtos</h2>
-                <FormCadProd />
-            </Pagina>
+        <div className="mt-4">
+            <h3>Cadastro de Produtos</h3>
+            <FormCadProd />
         </div>
     )
 }

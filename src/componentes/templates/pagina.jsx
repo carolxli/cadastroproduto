@@ -6,9 +6,6 @@ export default function Pagina(props) {
         <div>
             <Cabecalho texto="Sorveteria Seven Ice" />
             <Menu/>
-            <div className="container">
-                {props.children}
-            </div>
             
         </div>
 
